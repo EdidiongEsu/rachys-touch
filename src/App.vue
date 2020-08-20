@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <b-container>
-      <Header></Header>
-    </b-container>
+    <main>
+      <Header />
+      <Hero />
+    </main>
   </div>
 </template>
 
 <script>
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 export default {
   name: "App",
   components: {
     Header,
+    Hero,
   },
   methods: {
     Celebration: function () {
@@ -21,13 +24,6 @@ export default {
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+@import "@/scss/main.scss";
 </style>
