@@ -1,6 +1,6 @@
 <template>
-  <div id="nav">
-    <b-navbar toggleable="lg" type="dark" class="nav-background">
+  <div id="nav" class="navigation-bar">
+    <b-navbar toggleable="lg" type="dark" class="nav-background sticky-top">
       <b-navbar-brand
         id="brand-name"
         href="#"
@@ -32,6 +32,9 @@ export default {
 </script>
 
 <style>
+.navigation-bar {
+  height: 20%;
+}
 .nav-background {
   background: rgb(41, 39, 39);
   font-family: "Playfair Display", serif;
