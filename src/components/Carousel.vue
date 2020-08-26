@@ -6,7 +6,7 @@
           <div class="brand-carousel">
             <h1 class="display-2">RACHY'S TOUCH COSMETICS</h1>
             <h3 class="mb-1">Beautification, SkinCare and Epidermology</h3>
-            <b-button pill class="btn btn-lg mt-1">Gallery</b-button>
+            <b-button pill class="btn btn-lg mt-1" href="#gallery">Gallery</b-button>
             <b-button pill class="btn btn-lg ml-2 mt-1" variant="primary">Contact Us</b-button>
           </div>
         </b-carousel-slide>
@@ -39,8 +39,7 @@ export default {
   transform: translateY(-65%);
   z-index: -1;
 }
-.carousel-inner {
-}
+
 @media (max-width: 360px) {
   .carousel-caption h3 {
     display: none;
@@ -87,7 +86,7 @@ export default {
     justify-content: center;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .carousel-inner {
     width: 100%;
     height: 100vh;
