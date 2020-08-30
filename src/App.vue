@@ -10,6 +10,7 @@
     <main>
       <about-us id="about" />
       <Gallery id="gallery" />
+      <Contact />
       <Footer id="footer" />
     </main>
   </div>
@@ -20,6 +21,7 @@ import Header from "./components/Header";
 import Carousel from "./components/Carousel";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 export default {
@@ -29,12 +31,12 @@ export default {
     Carousel,
     "about-us": About,
     Gallery,
+    Contact,
     Footer,
   },
   methods: {},
 };
 </script>
-
 
 <style lang="scss">
 @import "@/scss/main.scss";

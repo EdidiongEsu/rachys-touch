@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-center py-5">
+  <b-container fluid class="text-center py-5 footer">
     <div class="container-fluid padding">
       <div class="row text-center padding">
         <div class="col-12 social padding">
@@ -36,7 +36,7 @@
         </h5>
       </div>
     </div>
-  </footer>
+  </b-container>
 </template>
 
 <script>
@@ -47,6 +47,9 @@ export default {
 </script>
 
 <style scoped>
+.footer {
+  background: rgba(212, 210, 210, 0.89);
+}
 .social a {
   font-size: 30px;
   padding: 17px;

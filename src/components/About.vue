@@ -32,7 +32,7 @@ export default {
           title: "Facial Makeup",
           image: require("@/assets/images/card-image1.png"),
           text:
-            "We apply makeup on our muses on special occasions to highlight their beauty and bring out their facial exuberance.",
+            "We highlight the beauty of our muses to bring out their facial exuberance.",
         },
         {
           id: 2,
