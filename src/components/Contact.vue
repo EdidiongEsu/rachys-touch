@@ -33,6 +33,13 @@
         <b-button type="reset" class="m-2" variant="danger">Reset</b-button>
       </b-form>
     </div>
+    <div class="googlemaps py-2">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2810.997448489098!2d6.981312613315423!3d4.880796622366953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069d1bf2996ff89%3A0xf33d84edbb18599f!2sRumuagholu%20state%20Secondary%20school!5e0!3m2!1sen!2sng!4v1598758574566!5m2!1sen!2sng"
+        width="100%"
+        height="300"
+      ></iframe>
+    </div>
   </b-container>
 </template>
 
@@ -69,4 +76,5 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+</style>
