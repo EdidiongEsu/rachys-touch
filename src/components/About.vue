@@ -57,6 +57,6 @@ export default {
 
 <style>
 h2 {
-  font-family: "Niconne", cursive;
+  font-family: "Teko", cursive;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <b-container id="contact">
     <b-row class="justify-content-center p-3">
-      <h2>Book a session with Us!</h2>
+      <h2>BOOK A SESSION WITH US!</h2>
     </b-row>
     <div>
       <b-form @submit="onSubmit" @reset="onReset" v-if="show">

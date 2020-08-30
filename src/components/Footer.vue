@@ -22,7 +22,7 @@
         <div class="col-12">
           <p>
             All right reserved. No part of this website should be copied withut the knowledge of
-            the owner or legal counsel. Reach out through the contact page for any questions.
+            the owner or legal counsel. Please, reach out through the contact page for any questions.
           </p>
         </div>
       </div>
