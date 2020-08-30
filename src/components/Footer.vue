@@ -21,8 +21,8 @@
         </div>
         <div class="col-12">
           <p>
-            eeyr uisf ifsu flid gasfha wf,u afu fsj fawhflsafawffa
-            fiswf hsuig fx8fg9 sugsglfd['g hsdgh8 pshdf8hgpdf8gdg98hgsighshgo;dfhg;gh sdgh']
+            All right reserved. No part of this website should be copied withut the knowledge of
+            the owner or legal counsel. Reach out through the contact page for any questions.
           </p>
         </div>
       </div>
