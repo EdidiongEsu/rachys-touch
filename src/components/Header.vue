@@ -1,6 +1,6 @@
 <template>
   <div id="nav" class="navigation-bar">
-    <b-navbar toggleable="lg" type="dark" class="nav-background">
+    <b-navbar toggleable="lg" type="dark" class="nav-background" fixed="top">
       <div>
         <b-nav align="left">
           <b-nav-item href="https://www.instagram.com/ellacute22/">
