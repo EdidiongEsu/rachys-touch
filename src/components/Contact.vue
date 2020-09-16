@@ -21,12 +21,12 @@
 
         <div>
           <label for="example-datepicker">Choose a date</label>
-          <b-form-datepicker id="example-datepicker" v-model="value" class="mb-2"></b-form-datepicker>
+          <b-form-datepicker id="example-datepicker" v-model="form.date" class="mb-2"></b-form-datepicker>
         </div>
 
         <div>
           <label for="example-timepicker">Choose preferred start time</label>
-          <b-form-timepicker locale="en"></b-form-timepicker>
+          <b-form-timepicker locale="en" v-model="form.time"></b-form-timepicker>
         </div>
 
         <b-button type="submit" class="m-2" variant="primary">Submit</b-button>
@@ -51,21 +51,26 @@ export default {
       form: {
         email: "",
         name: "",
+        date: "",
+        time: "",
       },
       show: true,
-      value: "",
     };
   },
   methods: {
     onSubmit(evt) {
       evt.preventDefault();
-      alert(JSON.stringify(this.form));
+      // console.log(JSON.stringify(this.form));
+      // alert(JSON.stringify(this.form));
+      this.onReset(evt);
     },
     onReset(evt) {
       evt.preventDefault();
       // Reset our form values
       this.form.email = "";
       this.form.name = "";
+      this.form.date = "";
+      this.form.time = "";
       // Trick to reset/clear native browser form validation state
       this.show = false;
       this.$nextTick(() => {
