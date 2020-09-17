@@ -1,18 +1,33 @@
 <template>
   <div class="carousel">
-    <b-carousel id="carousel-fade" style="text-shadow: 0px 0px 2px #000" interval="10000" controls>
+    <b-carousel
+      id="carousel-fade"
+      style="text-shadow: 0px 0px 2px #000"
+      interval="10000"
+      controls
+    >
       <div class="carousel-inner">
         <b-carousel-slide img-src="../assets/images/img-carousel1.png">
           <div class="brand-carousel">
-            <h1 class="display-2">RACHY'S TOUCH COSMETICS</h1>
+            <h1 class="display-2">RACHY'S TOUCH MAKEOVER</h1>
             <h3 class="mb-1">Beautification, SkinCare and Epidermology</h3>
-            <b-button pill class="btn btn-lg mt-1" href="#gallery">Gallery</b-button>
-            <b-button pill class="btn btn-lg ml-2 mt-1" variant="primary">Contact Us</b-button>
+            <b-button pill class="btn btn-lg mt-1" href="#gallery"
+              >Gallery</b-button
+            >
+            <b-button pill class="btn btn-lg ml-2 mt-1" variant="primary"
+              >Contact Us</b-button
+            >
           </div>
         </b-carousel-slide>
-        <b-carousel-slide img-src="../assets/images/img-carousel2.png"></b-carousel-slide>
-        <b-carousel-slide img-src="../assets/images/img-carousel3.png"></b-carousel-slide>
-        <b-carousel-slide img-src="../assets/images/img-carousel4.png"></b-carousel-slide>
+        <b-carousel-slide
+          img-src="../assets/images/img-carousel2.png"
+        ></b-carousel-slide>
+        <b-carousel-slide
+          img-src="../assets/images/img-carousel3.png"
+        ></b-carousel-slide>
+        <b-carousel-slide
+          img-src="../assets/images/img-carousel4.png"
+        ></b-carousel-slide>
       </div>
     </b-carousel>
   </div>
@@ -24,7 +39,6 @@ export default {
   data() {},
 };
 </script>
-
 
 <style>
 .carousel {
